@@ -1,2 +1,17 @@
-# carmax_bi_dashboard
-This CarMax BI dashboard analyses real financial, stock, and macroeconomic data to uncover performance trends, diagnose interest-rate sensitivity, and deliver actionable, executive-level recommendations for stabilising growth and profitability.
+This project delivers a single-page Business Intelligence dashboard that examines CarMax’s recent financial performance and its sensitivity to changing macroeconomic conditions. It focuses on how interest rates, inflation, and consumer demand trends have shaped revenue growth, profitability, and investor sentiment over the last five to six fiscal years.[1][2][3]
+
+The analysis is grounded in audited financial statements from CarMax’s 10‑K and 10‑Q filings, enriched with market data from Yahoo Finance and macroeconomic indicators from the US Federal Reserve and related public data portals. These datasets are cleaned, aligned by fiscal period, and integrated into a coherent model that links internal performance metrics (revenue, gross profit, operating margin, inventory, and CAF results) with external drivers such as the Federal Funds Rate and CPI inflation.[2][3][4][5][6][1]
+
+The dashboard is implemented as a fully self‑contained HTML application, with embedded CSS, JavaScript, and data, complying with the National College of Ireland Business Intelligence brief for a standalone offline artifact. Users can navigate five tabs—Executive Overview, Story Behind the Data, Interactive Visualisations, Business Insights & Recommendations, and Technical Documentation—to explore both high‑level KPIs and detailed charts. Interactive Plotly.js visuals enable hover tooltips, zooming, and drill‑down into quarterly results, stock performance, and macro‑financial correlations.[4][7]
+
+Beyond descriptive trends, the project applies diagnostic and simple predictive analytics to estimate how shifts in interest rates and inflation relate to changes in CarMax’s revenue and margins, and then translates those findings into actionable recommendations on digital strategy, inventory optimisation, credit policy, and cost discipline. The goal is to demonstrate distinction‑level BI practice: real, verifiable data; transparent governance; reproducible code; and an executive‑ready narrative that supports strategic decision‑making for CarMax’s leadership and stakeholders.[8][9][1][4]
+
+[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/12661679-99be-4e5f-bf1f-5b3535416f4f/CarMax-Dashboard.pdf)
+[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/a3117d9b-7407-43e1-be15-a4f8f9e5aa07/fred_fedfunds_annual_avg.csv)
+[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/bb14916d-58e9-46cb-b171-3a0091ee42e0/fred_cpi_annual_avg.csv)
+[4](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/abbaecb7-5def-4af8-ab41-951cd3fb6e5b/BI_Final_Project_Brief.pdf)
+[5](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/cf9fb63a-2709-4dce-8c1b-d1fa4a25d97b/kmx_core_financials_pivot.csv)
+[6](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/7372140d-359c-4b43-8f1c-0917371bcea8/kmx_market_vs_fundamentals_quarterly.csv)
+[7](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/b1219623-124d-4d57-b8c9-c9aaa620b05f/kmx_charts_bundle.json)
+[8](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/b35cef3c-7c44-432e-b572-d779ab842a3a/fred_macro_summary.csv)
+[9](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/126799722/272b26ec-8973-480b-be18-79d155b31589/kmx_financials_with_ratios.csv)
